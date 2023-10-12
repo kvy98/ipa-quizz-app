@@ -1,0 +1,27 @@
+.main-screen {
+  margin: 180px auto;
+}
+.main-screen__title {
+  text-align: center;
+  font-size: 80px;
+}
+.main-screen__controls-group {
+  width: 80%;
+  margin: 30px auto;
+}
+.main-screen__controls-group > *:first-child {
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 800px) {
+  .main-screen__title {
+    font-size: 120px;
+  }
+  .main-screen {
+    margin: 250px auto;
+    max-width: 1000px;
+  }
+
+  .main-screen__controls-group {
+    margin: 20px auto;
+  }
+}
