@@ -36,7 +36,8 @@ export default function PlayScreen({ handleSwitchScreen, dataType }) {
       }
       _options.push(randomAnswer);
     }
-    return shuffle( _options);
+    return shuffle(_options);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentQuestion, answer]);
   const handleCheckResult = useCallback(
     (inputAnswer) => {
