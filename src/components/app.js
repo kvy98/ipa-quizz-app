@@ -1,4 +1,3 @@
-import Button from "./Button";
 import "./app.css";
 import MainScreen from "./MainScreen";
 import PlayScreen from "./PlayScreen";
@@ -18,6 +17,6 @@ export default function App() {
   return currentScreen === SCREENS.MAIN_SCREEN ? (
     <MainScreen handleSwitchScreen={switchScreen} />
   ) : (
-    <PlayScreen handleSwitchScreen={switchScreen} dataType={dataType}/>
+    <PlayScreen handleSwitchScreen={switchScreen} dataType={dataType} />
   );
 }
